@@ -260,6 +260,10 @@ hr {
 --- General sections
 ============================ */
 
+.section-overview {
+    text-align: left;
+}
+
 .home-section {
     padding-top: 110px;
     padding-bottom: 110px;
@@ -267,7 +271,6 @@ hr {
     position:relative;
     z-index:120;
 }
-
 
 .section-heading h2 {
 	font-size: 40px;
@@ -357,6 +360,12 @@ hr {
 /* ===========================
 --- About
 ============================ */
+
+.service-box {
+    background: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+}
 
 .boxed-grey {
 	background: #f9f9f9;
@@ -758,7 +767,7 @@ Parallax
 }
 @media (max-width:768px) {
 	
-	.team.boxed-grey {
+	.team .boxed-grey {
 		margin-bottom: 30px;
 	}
 	
