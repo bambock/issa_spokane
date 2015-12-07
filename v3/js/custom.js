@@ -5,18 +5,28 @@
 	jQuery(window).load(function() { 
 		jQuery("#preloader").delay(100).fadeOut("slow");
 		jQuery("#load").delay(100).fadeOut("slow");
+		if($(location).attr('pathname').match(/bylaws/g)) {
+			$(".navbar-fixed-top").addClass("top-nav-collapse");
+		}
 	});
 
 
 	//jQuery to collapse the navbar on scroll
 	$(window).scroll(function() {
-		if ($(".navbar").offset().top > 50) {
+		if ( $(".navbar").offset().top > 50 ) {
 			$(".navbar-fixed-top").addClass("top-nav-collapse");
 		} else {
-			$(".navbar-fixed-top").removeClass("top-nav-collapse");
+			if(!$(location).attr('pathname').match(/bylaws/g)) {
+				$(".navbar-fixed-top").addClass("top-nav-collapse");
+			}
 		}
 	});
-
+	
+	//jQuery to collapse the navbar on scroll
+	//if($("#bylaws").offset().top < 200) {
+//		$(".navbar-fixed-top").addClass("top-nav-collapse");
+//	};
+	
 	//jQuery for page scrolling feature - requires jQuery Easing plugin
 	$(function() {
 		$('.navbar-nav li a').bind('click', function(event) {

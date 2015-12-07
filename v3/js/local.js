@@ -1,6 +1,6 @@
 // JavaScript File
-var slideHeight = 75;
-$("#bylaws").each(function() {
+var slideHeight = 175;
+$(".bylaws").each(function() {
     var $this = $(this);
     var $wrap = $this.children(".wrap");
     var defHeight = $wrap.height();
