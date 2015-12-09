@@ -21,11 +21,7 @@
 			}
 		}
 	});
-	
-	//jQuery to collapse the navbar on scroll
-	//if($("#bylaws").offset().top < 200) {
-//		$(".navbar-fixed-top").addClass("top-nav-collapse");
-//	};
+
 	
 	//jQuery for page scrolling feature - requires jQuery Easing plugin
 	$(function() {
