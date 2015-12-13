@@ -13,7 +13,7 @@ $data           = array();      // array to pass back data
         $errors['email'] = 'Email is required.';
 
     if (empty($_POST['subject']))
-        $errors['superheroAlias'] = 'Superhero alias is required.';
+        $errors['subject'] = 'Superhero alias is required.';
 
 // return a response ===========================================================
 
@@ -37,6 +37,55 @@ $data           = array();      // array to pass back data
 
     // return all our data to an AJAX call
     echo json_encode($data);    
-    file_put_contents("outputfile.txt", file_get_contents("php://input"));
+    // file_put_contents("outputfile.txt", var_dump($_POST);
+    
+/*	$to      = 'bambock@gmail.com';
+	$subject = $_POST['subject'];
+	$message = $_POST['name'] . "\r\n" . $_POST['message'];
+	$headers = $_POST['email'] . "\r\n" .
+    	'Reply-To:' . $_POST['email'] . "\r\n" .
+    	'X-Mailer: PHP/' . phpversion();
+    	// multiple recipients
+*/
+
+// recipient
+$to = 'bambock@gmail.com';
+
+// subject
+$subject = "Website Inquiry: " . $_POST['subject'];
+
+// message
+
+$message = "
+<html>
+<head>
+  <title>ISSA Inquiry</title>
+</head>
+<body>
+  <p>We received this message:</p>
+  <h5>Name</h5>
+  <div>" . $_POST['name']. "</div>
+  <h5>Email</h5>
+    <div>" . $_POST['email']. "</div>
+  <h5>Message</h5>
+    <div>" . $_POST['message']. "</div>
+</body>
+</html>
+";
+
+// To send HTML mail, the Content-type header must be set
+$headers  = 'MIME-Version: 1.0' . "\r\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+// Additional headers
+$headers .= 'To: ISSA Board Members<bambock@stcu.org>' . "\r\n";
+$headers .= 'From: ISSA Web Form <info@issaspokane.org>' . "\r\n";
+$headers .= 'Bcc: bambock@gmail.com' . "\r\n";
+
+mail($to, $subject, $message, $headers);   
+    
+} else {
+	echo "hello no POST world\n\n";
+	var_dump($_GET);
 }
 ?>
