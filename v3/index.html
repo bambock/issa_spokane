@@ -115,7 +115,7 @@
 							<h5>Membership</h5>
 							The ISSA international board consists of some of the most influential people in the security industry, with representatives from Dell Computer 
 							Corporation, EDS, Forrester Research Inc., Symantec. With an international communications network developed throughout the industry, the ISSA is 
-							focused on maintaining its position as The Global Voice of Information Security.  Contact our <a href="#contact">Membership Director</a>for more 
+							focused on maintaining its position as The Global Voice of Information Security.  Contact our <a href="#contact">Membership Director</a> for more 
 							information on joining the ISSA and the local ISSA chapter.
 							</p>
         				</div>
@@ -183,7 +183,7 @@
 								Understanding and thriving within the industry of information security can be challenging on your own.  The ISSA Spokane chapter would 
 								Often times it is BLAH and in addition to our monthly gathering, we utilize other means to communicate and share experiences and ask questions. 
 								<ul>
-									<li>Chapter Google Group</li>
+									<li>Google Group</li>
 									<li>Slack Channel</li>
 									<li>Brainstorm more</li>
 								</ul>
@@ -412,10 +412,11 @@
 	                            		<label for="subject">Subject</label>
 	                            		<select id="subject" name="subject" class="form-control" required="required">
 	                                	<option value="na" selected="">Choose One:</option>
-	                                		<option value="questions">General Questions</option>
-	                                		<option value="sponsorship">Sponsorship Information</option>
-	                                		<option value="speaking">Speaking Engagement </option>
-	                                		<option value="suggestions">Suggestions</option>
+	                                		<option value="General Questions">General Questions</option>
+	                                		<option value="Membership Information">Membership Information</option>
+	                                		<option value="Sponsorship">Sponsorship Information</option>
+	                                		<option value="Speaking Engagement">Speaking Engagement </option>
+	                                		<option value="Suggestions">Suggestions</option>
 	                            		</select>
 	                        		</div>
 	                    		</div>
@@ -425,9 +426,13 @@
 	                            		<textarea id="message" name="message" class="form-control" rows="9" cols="25" required="required" placeholder="Message"></textarea>
 	                        		</div>
 	                    		</div>
+	                    		<div class="col-md-12">
+	                    			<div class="g-recaptcha" data-sitekey="6LdNtM4SAAAAAPlnkIWtAKXpcHemuPB3W6jTTMs8"></div>
+	                    		</div>
 			                    <div class="col-md-12">
+			                    	
 			                        <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">Send Message</button>
-			                    	<img id="#msgload" src="img/ajax-loader.gif" />
+			                        <div id="mssg"><img id="#msgload" src="img/ajax-loader.gif" /></div>
 			                    </div>
 	                		</div>
 							<!-- <div class="g-recaptcha" data-sitekey="6LdNtM4SAAAAAPlnkIWtAKXpcHemuPB3W6jTTMs8"></div> -->

@@ -487,6 +487,13 @@ hr {
 --- Contact
 ============================ */
 
+#mssg {
+
+    float: right;
+    text-align: right;
+    padding-right: 10px;
+}
+
 form#contact-form .form-group label {
 	text-align: left !important;
 	display: block;
