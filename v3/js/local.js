@@ -60,7 +60,8 @@ $(document).ready(function() {
             'name'              : $('input[name=name]').val(),
             'email'             : $('input[name=email]').val(),
             'subject'           : $('select[name=subject]').val(),
-            'message'           : $('textarea[name=message]').val()
+            'message'           : $('textarea[name=message]').val(),
+            'g-recaptcha-response' : grecaptcha.getResponse()
         };
         console.log(form_data)
         $("#mssg").show();
