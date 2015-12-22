@@ -76,7 +76,7 @@ a:focus {
 }
 
 .navbar-brand h1{
-	color: #fff;
+  color: #666;
   font-size: 20px;
   line-height: 40px;
 }
@@ -97,7 +97,7 @@ a:focus {
 .navbar-custom ul.nav li a {
 	font-size: 12px;
 	letter-spacing: 1px;
-    color: #444;
+    color: #666;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -156,7 +156,7 @@ a:focus {
 .navbar-toggle {
     padding: 4px 6px;
     font-size: 14px;
-    color: #fff;
+    color: #333;
 }
 
 .navbar-toggle:focus,
@@ -587,44 +587,6 @@ footer p {
 	color: #f8f8f8;
 }
 
-/* ==========================
-Parallax
-============================= */
-
-#parallax1{	
-	background-image: url(../img/parallax/1.jpg);
-}
-
-#parallax1:after {	
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	top: 0;
-	opacity: 0.7;
-	z-index: -1;
-}
-
-
-#parallax2{	
-	background-image: url(../img/parallax/2.jpg);
-
-}
-
-#parallax2:after  {	
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	top: 0;
-	opacity: 0.7;
-	z-index: -1;
-}
-
 
 /* ===========================
 --- Elements
@@ -827,7 +789,7 @@ Parallax
 @media (max-width:480px) {
 
 	.navbar-custom .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
+        background-color: rgba(255,255,255,.4);
 	}
 	
 	.navbar.navbar-custom.navbar-fixed-top {

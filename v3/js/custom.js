@@ -7,6 +7,7 @@
 		jQuery("#load").delay(100).fadeOut("slow");
 		if($(location).attr('pathname').match(/bylaws/g)) {
 			$(".navbar-fixed-top").addClass("top-nav-collapse");
+			$(".navbar-brand h1").css('color','#fff');
 		}
 	});
 
@@ -18,6 +19,7 @@
 		} else {
 			if(!$(location).attr('pathname').match(/bylaws/g)) {
 				$(".navbar-fixed-top").addClass("top-nav-collapse");
+				$(".navbar-brand h1").css("color", "#fff");
 			}
 		}
 	});
