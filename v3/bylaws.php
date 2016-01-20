@@ -34,7 +34,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                     <h1>ISSA SPOKANE</h1>
                 </a>
             </div>
@@ -42,14 +42,14 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html#intro">Home</a></li>
+        <li class="active"><a href="index.php#intro">Home</a></li>
         <li><a href="index#resources">Resources</a></li>
         <li><a href="index##board">Board</a></li>
         <li><a href="#index#about">About</a></li>
 		<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact <b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="index.html#contact">Get In Touch</a></li>
+            <li><a href="index.php#contact">Get In Touch</a></li>
             <li><a href="https://www.issa.org/general/register_member_type.asp" target="_blank">Join ISSA</a></li>
             <li><a href="http://www.eventbrite.com/o/greater-spokane-issa-6502026803" target="_blank">Upcoming Events</a></li>
           </ul>

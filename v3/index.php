@@ -34,7 +34,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                     <h1>ISSA SPOKANE</h1>
                 </a>
             </div>
@@ -512,7 +512,7 @@
 
 									The primary purpose of the Chapter is to promote the education of its members for the improvement and development of their capabilities relating to the security of the information systems processing.<br /><br />
 									
-									Read More: <a href="bylaws.html" target="_blank">Bylaws</a>
+									Read More: <a href="bylaws.php" target="_blank">Bylaws</a>
 									Other Formats: <a href="img/pdf/spk.bylaws.pdf" class="lnk">.PDF</a>
 								</div>
 							</div>
