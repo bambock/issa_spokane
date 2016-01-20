@@ -90,7 +90,7 @@
 				<div class="wow fadeInUp" data-wow-delay="0.2s">
                 	<div class="service-box">
 						<div class="service-desc">
-							Other Formats: <a href="img/pdf/spk.bylaws.pdf" class="lnk">PDF</a><br /><br />
+							Other Formats: <a href="assets/img/pdf/spk.bylaws.pdf" class="lnk">PDF</a><br /><br />
 							ARTICLE I - NAME</span><br /><br />
 
 							The name of this organization shall be the Greater Spokane Chapter, hereafter referred to as the "Chapter" of the Information Systems Security Association, Inc., hereafter referred to as the "Association".<br /><br />

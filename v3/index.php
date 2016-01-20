@@ -513,7 +513,7 @@
 									The primary purpose of the Chapter is to promote the education of its members for the improvement and development of their capabilities relating to the security of the information systems processing.<br /><br />
 									
 									Read More: <a href="bylaws.php" target="_blank">Bylaws</a>
-									Other Formats: <a href="img/pdf/spk.bylaws.pdf" class="lnk">.PDF</a>
+									Other Formats: <a href="assets/img/pdf/spk.bylaws.pdf" class="lnk">.PDF</a>
 								</div>
 							</div>
                 		</div>
@@ -590,7 +590,7 @@
 			                    <div class="col-md-12">
 			                    	
 			                        <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">Send Message</button>
-			                        <div id="status"><img id="#msgload" src="img/ajax-loader.gif" /></div>
+			                        <div id="status"><img id="#msgload" src="assets/img/ajax-loader.gif" /></div>
 			                    </div>
 	                		</div>
 							<!-- <div class="g-recaptcha" data-sitekey="6LdNtM4SAAAAAPlnkIWtAKXpcHemuPB3W6jTTMs8"></div> -->
