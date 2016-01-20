@@ -52,6 +52,8 @@ $(document).ready(function() {
 
     $('.contact.sponsors').click(function() {
         $("#subject").val("Sponsorship");
+        $('input[@type="text"]')[0].focus();
+        $("#name").focus();
     });
     
     $('.contact.director').click(function() { 
@@ -108,7 +110,7 @@ $(document).ready(function() {
             
         })
         .always(function() {
-            $("#status").fadeOut(5000);
+            $("#status").fadeOut(10000);
         });
 
         // stop the form from submitting the normal way and refreshing the page
