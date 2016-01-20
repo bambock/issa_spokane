@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-	
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -180,12 +179,13 @@
 						<div class="service-desc">
 							<h5>Community</h5>
 							<p>
-								Understanding and thriving within the industry of information security can be challenging on your own.  The ISSA Spokane chapter would 
-								Often times it is BLAH and in addition to our monthly gathering, we utilize other means to communicate and share experiences and ask questions. 
+								Understanding and thriving within the industry of information security can be challenging on your own.  The ISSA Spokane chapter membership offers 
+								you a channel for networking with security professionals in the greater Spokane area in many areas including health care, banking, energy, education and many more.  
+								In addition to our monthly gatherings, we utilize other means to communicate, share experiences and ask questions. 
 								<ul>
-									<li>Google Group</li>
-									<li>Slack Channel</li>
-									<li>Brainstorm more</li>
+									<li>Google Group <a href="https://groups.google.com/forum/#!contactowner/issa-spokane" target="_blank">&nbsp;<i class="fa fa-external-link"></i></a></li>
+									<li>Slack Channel (new)  <a href="https://issaspokane.slack.com" target="_blank">&nbsp;<i class="fa fa-external-link"></i></a></li>
+									<li>Community Events</li>
 								</ul>
 							</p>
 						</div>
